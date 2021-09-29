@@ -1,7 +1,9 @@
 main>.container {
+    /* This padding property has three values: top | right & left | bottom */
     padding: 60px 15px 0;
     margin-bottom: 5rem;
 }
+
 .sticky-nav {
     position: fixed;
     left: 0;
@@ -9,19 +11,20 @@ main>.container {
     width: 100%;
 }
 
-.minHeight{
+.minHeight {
     min-height: 73vh;
 }
-.heroText{
+
+.heroText {
     font-family: modesto-open-shadow, sans-serif;
     font-family: 'Rampart One', sans-serif;
     font-weight: 500;
     font-style: normal;
     text-transform: uppercase;
-    color: rgb(255, 255, 0); 
+    color: rgb(255, 255, 0);
 }
 
-.bgImage{
+.bgImage {
     background-image: url("/img/RetroTron.png");
     background-repeat: none;
     background-position: center;
