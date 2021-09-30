@@ -62,8 +62,25 @@
 </nav>
 
     <main class="flex-shrink-0">
-       <div class="container">
-           <h1 class="mt-5">Grid Nine</h1>
+        <div class="container-fluid minHeight h-100">
+            <h1 Grid class="mt-5 pt-1"></h1>
+                <div class="row row-cols-1 gy-2 h-100">
+                    <div class="col col-md-12">
+                        <div class="bg-secondary h-100">Col Main</div>
+                    </div>
+                <div class="col col-md-3 order-md-last">
+                    <div class="bg-dark h-100 text-light">Col One - but ordered last</div>
+                    </div>
+                    <div class="col col-md-3">
+                        <div class="bg-secondary h-100">Col Two</div>
+                    </div>
+                    <div class="col col-md-3">
+                        <div class="bg-secondary h-100">Col Three</div>
+                    </div>
+                    <div class="col col-md-3">
+                        <div class="bg-secondary h-100">Col Four</div>
+                    </div>
+                </div>
         </div>
     </main>
     <footer class="footer mt-auto py-3 bg-light sticky-footer">
